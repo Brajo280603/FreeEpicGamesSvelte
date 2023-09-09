@@ -37,7 +37,7 @@
 				<GameCards gameName={game.name} gameDesc={game.desc} gameIcon={game.img} gameLink={game.link}></GameCards>
 			{/each}
 			{#each games.nexts as game }
-				<GameCards gameName={game.name} gameDesc={game.desc} gameIcon={game.img} gameLink={game.link}></GameCards>
+				<GameCards gameName={game.name} gameDesc={game.desc} gameIcon={game.img} gameLink={game.link} upcoming=true></GameCards>
 			{/each}
 		</div>
 	{:catch error}
