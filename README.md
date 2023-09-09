@@ -1,3 +1,9 @@
+# FreeEpicGamesSvelte
+My Previously made [`FreeEpicGamesApp`](https://github.com/Brajo280603/FreeEpicGamesApp) app, same as that but remade with Svelte.
+
+## Link
+[`FreeGames`](https://free-epic-games.vercel.app/)
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
