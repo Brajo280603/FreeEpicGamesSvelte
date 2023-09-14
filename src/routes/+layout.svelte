@@ -1,7 +1,10 @@
 <script>
 	import '../app.postcss';
 	import {AppBar, LightSwitch} from '@skeletonlabs/skeleton'
+	import { dev } from '$app/environment';
+	import { inject } from  '@vercel/analytics'
 
+	inject({ mode:dev? 'development': 'production'});
 </script>
 
 <AppBar gridColumns="grid-cols-3" slotDefault="place-self-center" slotTrail="place-content-end">
