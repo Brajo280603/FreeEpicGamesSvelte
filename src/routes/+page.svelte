@@ -24,9 +24,9 @@
 	};
 	})
 </script>
-<!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
+<!-- YOU CAN DELETE EVERYTHING IN THIS PAGE ( please don't ) -->
 
-<div class="container h-full mx-auto flex justify-center items-center mt-5">
+<div class="container h-full mx-auto flex justify-center items-center my-5">
 	
 		
 	{#await games}
